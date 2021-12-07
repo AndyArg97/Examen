@@ -22,10 +22,7 @@ nav div input{
     padding: 10px;
 }
 
-nav div img{
-    width: 45px;
-    height: 45px;
-}
+
  nav div button{
     padding: 0 20px;
     font-size: 15px;
@@ -34,4 +31,14 @@ nav div img{
     border: 1px solid silver;
     border-radius: 20px;
     padding: 10px;
+ }
+
+ nav div.esquina{
+    margin: 0px;
+    padding: 0 20px;
+    float: right;
+    display: grid;
+    grid-gap: 0rem;
+    grid-template-columns: 50px 0px 0px;
+    grid-template-rows: 15px 15px;
  }
