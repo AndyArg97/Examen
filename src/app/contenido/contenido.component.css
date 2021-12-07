@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: silver;
+    padding: 10px;
+}
+nav select{
+    padding: 10px;
+    color: Black;
+    background-color: silver;
+    border:none;
+}
+nav div button.dashboard{
+    padding: 0 20px;
+    background-color:blue;
+    font-size: 15px;
+    color: Black;
+    outline: none;
+    border: 1px solid ligh;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav div button.documentation{
+    padding: 10px;
+    background-color:silver;
+    border:none;
+}
+nav div.derecha{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+}
+
+nav div.contenido div.grilla1{
+    margin: 0px;
+    padding: 0 100px;
+    float: right;
+    display: grid;
+    grid-gap: 10rem;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 50px 50px;
+}
+nav div.contenido div.grilla2{
+    margin: 0px;
+    padding: 0 100px;
+    float: right;
+    display: grid;
+    grid-gap: 10rem;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 50px 50px;
+}

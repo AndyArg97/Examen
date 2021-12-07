@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+nav div input{
+    width :150px;
+    height : 10px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav div img{
+    width: 45px;
+    height: 45px;
+}
+ nav div button{
+    padding: 0 20px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 20px;
+    padding: 10px;
+ }
